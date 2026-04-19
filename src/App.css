@@ -1,0 +1,102 @@
+
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom animations */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.8s ease-out forwards;
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 4s ease-in-out infinite;
+}
+
+/* Parallax effect for hero */
+.hero-parallax {
+  will-change: transform;
+}
+
+/* Button hover effects */
+button {
+  transition-property: transform, box-shadow, background-color, border-color;
+  transition-duration: 300ms;
+  transition-timing-function: ease;
+}
+
+/* Input focus effects */
+input:focus,
+textarea:focus {
+  outline: none;
+  transition-property: border-color, box-shadow;
+  transition-duration: 300ms;
+}
+
+/* Card hover lift */
+.group:hover {
+  transition-property: transform, box-shadow;
+  transition-duration: 500ms;
+}
+
+/* Prevent layout shift */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f0f10;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4a574;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c9a66b;
+}
+
+/* Text selection */
+::selection {
+  background-color: #d4a574;
+  color: #0f0f10;
+}
+
+::-moz-selection {
+  background-color: #d4a574;
+  color: #0f0f10;
+}
+
+/* Focus visible for accessibility */
+*:focus-visible {
+  outline: 2px solid #d4a574;
+  outline-offset: 2px;
+}
