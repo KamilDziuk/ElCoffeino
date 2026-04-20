@@ -51,7 +51,7 @@ Start development server:
 ```bash
 npm run dev
 ```
-Production Build
+Production Build:
 ```bash
 npm run build
 ```
