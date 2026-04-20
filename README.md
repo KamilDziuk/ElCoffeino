@@ -33,28 +33,25 @@ Built using modern frontend technologies:
 -  Optimized for performance
 -  SEO-friendly structure
 
-## Project Structure
-
-
-src/
-├── components/
-├── data/
-├── lib/
-├── pages/
-├── types/
-
-
 ## Installation & Setup
 
-1. Clone the repository:
+ Clone the repository:
 ```bash
 git clone https://github.com/your-repo/elcoffeino.git
+```
 Navigate to the project directory:
+```bash
 cd elcoffeino
+```
 Install dependencies:
+```bash
 npm install
+```
 Start development server:
+```bash
 npm run dev
+```
 Production Build
+```bash
 npm run build
 ```
