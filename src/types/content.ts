@@ -124,6 +124,6 @@ export interface LanguageContent {
   menu: MenuContent;
 }
 
-export type Language = "en" | "nl" | "pl";
+export type Language = "en" | "nl";
 
 export type ContentMap = Record<Language, LanguageContent>;
