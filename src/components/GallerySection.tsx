@@ -5,8 +5,6 @@ const GALLERY_IMAGES = [
   "../../projects1.webp",
   "../../projects2.webp",
   "../../projects3.webp",
-  "../../projects4.webp",
-  "../../projects5.webp",
   "../../projects6.webp",
   "../../projects7.webp",
   "../../projects8.webp",
