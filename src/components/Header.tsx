@@ -6,7 +6,6 @@ import type { Language, LanguageContent } from "../types/content";
 const LANGUAGES: { code: Language; label: string }[] = [
   { code: "en", label: "English" },
   { code: "nl", label: "Nederlands" },
-  { code: "pl", label: "Polski" },
 ];
 
 interface Props {
