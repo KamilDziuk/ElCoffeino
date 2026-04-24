@@ -123,8 +123,7 @@ export const content: ContentMap = {
         message: "Your Message",
         submit: "Send Message",
         submitting: "Sending...",
-        // success: "Message sent successfully! We'll get back to you soon.",
-        success: "The form is temporarily unavailable.",
+        success: "Message sent successfully! We'll get back to you soon.",
         error: "Failed to send message. Please try again.",
       },
       whatsapp: "Message on WhatsApp",
@@ -316,10 +315,8 @@ export const content: ContentMap = {
         message: "Uw Bericht",
         submit: "Verzend Bericht",
         submitting: "Verzenden...",
-        // success:
-        //   "Bericht succesvol verzonden! We nemen binnenkort contact met u op.",
-
-        success: "Het formulier is tijdelijk niet beschikbaar.",
+        success:
+          "Bericht succesvol verzonden! We nemen binnenkort contact met u op.",
         error: "Verzenden mislukt. Probeer het opnieuw.",
       },
       whatsapp: "Bericht op WhatsApp",
@@ -389,22 +386,13 @@ export const content: ContentMap = {
   },
 };
 
-export const API_URL = import.meta.env.REACT_APP_BACKEND_URL || "";
-
 export async function submitContact(formData: {
   name: string;
   email: string;
   phone: string;
   message: string;
 }) {
-  if (!API_URL) {
-    // Mock submission when no backend
-    return new Promise<{ success: boolean }>((resolve) => {
-      setTimeout(() => resolve({ success: true }), 1500);
-    });
-  }
-
-  const res = await fetch(`${API_URL}/api/contact`, {
+  const res = await fetch(`/.netlify/functions/contact`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(formData),
