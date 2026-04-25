@@ -1,4 +1,3 @@
-
 /* Tailwind v4 */
 @import "tailwindcss";
 
@@ -8,8 +7,15 @@
 
 body {
   margin: 0;
-font-family: system-ui, -apple-system, BlinkMacSystemFont,
-"Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -19,12 +25,13 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont,
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family:
+    source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 /* Font utility */
 .font-serif {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 /* =======================

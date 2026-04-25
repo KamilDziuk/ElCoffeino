@@ -16,6 +16,7 @@ import {
 import { submitContact } from "../data/submitContact";
 import type { LanguageContent } from "../types/content";
 import { useSubmitStatus } from "../../netlify/functions/useSubmitStatus";
+import { href } from "react-router-dom";
 
 interface Props {
   content: LanguageContent;
@@ -75,7 +76,12 @@ export default function ContactSection({ content }: Props) {
       value: content.contact.info.phone,
       href: `tel:${content.contact.info.phone}`,
     },
-    { icon: MapPin, title: "Location", value: content.contact.info.location },
+    {
+      icon: MapPin,
+      title: "Location",
+      value: content.contact.info.location,
+      href: `https://www.google.com/maps/place/Valkenierspad+13,+4714+BD+Sprundel,+Holandia/@51.5357714,4.5915189,17z/data=!3m1!4b1!4m6!3m5!1s0x47c419160ab10ea3:0xdd614591758e49b1!8m2!3d51.5357714!4d4.5940938!16s%2Fg%2F11csbyqk76?entry=ttu&g_ep=EgoyMDI2MDQyMi4wIKXMDSoASAFQAw%3D%3D`,
+    },
     { icon: Building, title: "Business", value: content.contact.info.business },
   ];
 

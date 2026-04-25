@@ -33,7 +33,7 @@ thank you for your inquiry about our services ☕
 We’ve received your message and will get back to you as soon as possible (usually within 24 hours).
 
 If your request is urgent, feel free to contact us directly:
-📞 +31617995104
+📞 +31 6 17995104
 
 Your message:
 Name: ${name}
