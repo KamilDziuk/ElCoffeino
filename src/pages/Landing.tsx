@@ -12,7 +12,7 @@ import ContactSection from "../components/ContactSection";
 import Footer from "../components/Footer";
 
 export default function Landing() {
-  const [language, setLanguage] = useState<Language>("en");
+  const [language, setLanguage] = useState<Language>("nl");
   const currentContent = content[language];
 
   return (

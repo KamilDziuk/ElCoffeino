@@ -36,11 +36,11 @@ export default function PrivateChefSection({ content }: Props) {
         {/* Image + description */}
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
           <div className="relative group order-2 lg:order-1">
-            <div className="absolute -inset-2 bg-gradient-to-r from-[#d4a574] via-[#c9a66b] to-[#d4a574] rounded-lg blur-lg opacity-30 group-hover:opacity-50 transition-opacity duration-500 animate-pulse-slow" />
+            <div className="absolute w-lg -inset-2 bg-linear-to-r from-[#d4a574] via-[#c9a66b] to-[#d4a574] rounded-lg blur-lg opacity-30 group-hover:opacity-50 transition-opacity duration-500 animate-pulse-slow mx-auto" />
             <img
               src="../../privatecheffreelancechef.webp"
               alt="Private Chef"
-              className="relative rounded-lg shadow-2xl w-full h-auto object-cover"
+          className="relative rounded-lg shadow-2xl w-lg h-auto object-cover mx-auto "
             />
           </div>
 

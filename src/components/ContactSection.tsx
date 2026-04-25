@@ -11,6 +11,7 @@ import {
   MessageCircle,
   Send,
   CheckCircle,
+  Building,
 } from "lucide-react";
 import { submitContact } from "../data/submitContact";
 import type { LanguageContent } from "../types/content";
@@ -75,6 +76,7 @@ export default function ContactSection({ content }: Props) {
       href: `tel:${content.contact.info.phone}`,
     },
     { icon: MapPin, title: "Location", value: content.contact.info.location },
+    { icon: Building, title: "Business", value: content.contact.info.business },
   ];
 
   return (
@@ -87,7 +89,7 @@ export default function ContactSection({ content }: Props) {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16 animate-fade-in-up">
-          <h2 className="text-4xl md:text-5xl font-bold text-[#74d4c1] mb-4 font-serif">
+          <h2 className="text-4xl md:text-5xl font-bold text-[#d4a574] mb-4 font-serif">
             {content.contact.title}
           </h2>
           <p className="text-xl text-gray-300 font-light italic max-w-2xl mx-auto">

@@ -30,13 +30,13 @@ export default function AboutSection({ content }: Props) {
             <img
               src="../../aboutsectionimage0.webp"
               alt="Private Chef"
-              className="relative rounded-lg shadow-2xl w-full h-auto object-cover"
+              className="relative rounded-lg shadow-2xl w-lg h-auto object-cover mx-auto"
             />
           </div>
 
-          <div className="space-y-6 order-1 lg:order-1 h-[100%]">
-            <Card className="bg-[#1a1a1a]/80 backdrop-blur-md border border-[#d4a574]/30 p-8 hover:border-[#d4a574]/50 transition-all duration-500 shadow-xl h-[100%]">
-              <p className="text-gray-300 leading-relaxed text-base mb-4">
+          <div className="space-y-6 order-1 lg:order-1 h-full">
+            <Card className="bg-[#1a1a1a]/80 backdrop-blur-md border border-[#d4a574]/30 p-8 hover:border-[#d4a574]/50 transition-all duration-500 shadow-xl h-full">
+              <p className="text-gray-300 leading-relaxed text-base mb-4 whitespace-pre-line">
                 {" "}
                 {content.about.text}
               </p>
@@ -49,16 +49,16 @@ export default function AboutSection({ content }: Props) {
             <img
               src="../../aboutsectionimage1.webp"
               alt="Private Chef"
-              className="relative rounded-lg shadow-2xl w-full  h-auto object-cover"
+              className="relative rounded-lg shadow-2xl w-lg h-auto object-cover mx-auto"
             />
           </div>
 
-          <div className="space-y-6 order-1 lg:order-2 h-[100%]" >
-            <Card className="bg-[#1a1a1a]/80 backdrop-blur-md border border-[#d4a574]/30 p-8 hover:border-[#d4a574]/50 transition-all duration-500 shadow-xl h-[100%]">
-              <p className="text-gray-300 leading-relaxed text-base mb-4">
+          <div className="space-y-6 order-1 lg:order-2h-full" >
+            <Card className="bg-[#1a1a1a]/80 backdrop-blur-md border border-[#d4a574]/30 p-8 hover:border-[#d4a574]/50 transition-all duration-500 shadow-xl h-full">
+              <span className="text-gray-300 leading-relaxed text-base mb-4 whitespace-pre-line">
                 {" "}
                 {content.about.text2}
-              </p>
+              </span>
             </Card>
           </div>
         </div>
