@@ -45,7 +45,7 @@ Message: ${message}
 Best regards,  Łukasz Seweryn - El Coffeino.
 
 Instagram: https://instagram.com/elcoffeino
-Website: https://elcoffeino.nl
+Website: https://elcoffeino.com
 
 We provide services for eve.
 `,
