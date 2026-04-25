@@ -12,8 +12,9 @@ import {
   Send,
   CheckCircle,
 } from "lucide-react";
-import { submitContact } from "../data/content";
+import { submitContact } from "../data/submitContact";
 import type { LanguageContent } from "../types/content";
+import { useSubmitStatus } from "../../netlify/functions/useSubmitStatus";
 
 interface Props {
   content: LanguageContent;
@@ -27,10 +28,8 @@ export default function ContactSection({ content }: Props) {
     message: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState<"success" | "error" | null>(
-    null,
-  );
 
+  const { submitStatus, setSubmitStatus } = useSubmitStatus();
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
@@ -42,13 +41,14 @@ export default function ContactSection({ content }: Props) {
     setIsSubmitting(true);
     setSubmitStatus(null);
 
-    try {
-      await submitContact(formData);
+    const res = await submitContact(formData);
+
+    if (res.status === 200) {
       setSubmitStatus("success");
+      setIsSubmitting(false);
+    } else if (res.status === 500 || res.status === 405) {
       setFormData({ name: "", email: "", phone: "", message: "" });
-    } catch {
       setSubmitStatus("error");
-    } finally {
       setIsSubmitting(false);
     }
   };
@@ -87,7 +87,7 @@ export default function ContactSection({ content }: Props) {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16 animate-fade-in-up">
-          <h2 className="text-4xl md:text-5xl font-bold text-[#d4a574] mb-4 font-serif">
+          <h2 className="text-4xl md:text-5xl font-bold text-[#74d4c1] mb-4 font-serif">
             {content.contact.title}
           </h2>
           <p className="text-xl text-gray-300 font-light italic max-w-2xl mx-auto">
@@ -178,10 +178,9 @@ export default function ContactSection({ content }: Props) {
               {submitStatus === "success" && (
                 <div
                   data-testid="contact-success"
-                  // className="flex items-center space-x-2 text-green-400 bg-green-400/10 border border-green-400/30 rounded-lg p-4"
-                  className="flex items-center space-x-2 text-orange-400 bg-orange-400/10 border border-orange-400/30 rounded-lg p-4"
+                  className="flex items-center space-x-2 text-green-400 bg-green-400/10 border border-green-400/30 rounded-lg p-4"
                 >
-                  {/* <CheckCircle className="w-5 h-5" /> */}
+                  <CheckCircle className="w-5 h-5" />
                   <p>{content.contact.form.success}</p>
                 </div>
               )}
