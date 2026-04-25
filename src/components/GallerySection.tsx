@@ -8,6 +8,8 @@ const GALLERY_IMAGES = [
   "../../projects6.webp",
   "../../projects7.webp",
   "../../projects8.webp",
+  "../../projects9.webp",
+  "../../projects10.webp",
 ];
 
 interface Props {

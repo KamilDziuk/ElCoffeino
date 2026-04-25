@@ -29,7 +29,6 @@ export const handler = async (event: Event) => {
       to: `${email}, elcoffeinonl@gmail.com`,
       subject: "Thank you for your inquiry – El Coffeino",
       text: `Hi,
-
 thank you for your inquiry about our services ☕
 We’ve received your message and will get back to you as soon as possible (usually within 24 hours).
 

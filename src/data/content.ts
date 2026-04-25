@@ -19,19 +19,53 @@ export const content: ContentMap = {
     about: {
       title: "Who We Are",
       subtitle: "Premium Coffee Meets Culinary Excellence",
-      text: "Behind ElCoffeino stands a passionate entrepreneur who successfully combines two worlds — premium coffee experiences and professional culinary expertise.\n\nWhat started as a love for quality, hospitality and creating memorable moments has grown into a brand built on passion, hard work and versatility. ElCoffeino is more than just a mobile coffee bar — it is also backed by the skills and experience of a dedicated freelance chef.\n\nAs an experienced chef freelancer, he is available for restaurants, private dining, events, catering projects and temporary kitchen support. With a strong background in modern kitchens and experience working in different restaurant environments, he brings professionalism, creativity and a hands-on mentality to every service.",
-      text2:
-        "He is known for being flexible, reliable and ready for any challenge. Whether it is stepping into a busy service, supporting a team during peak hours, helping with new menu ideas or taking care of private guests, he adapts quickly and always works with focus, energy and attention to detail.\n\nCooking is more than work — it is true passion. Especially when it comes to Italian cuisine, where fresh ingredients, honest flavours and respect for tradition come together on every plate. At the same time, he feels comfortable in modern kitchens, contemporary concepts and dynamic working environments.\n\nThe same dedication that drives ElCoffeino's coffee service is brought into every kitchen project: quality, consistency, hospitality and the desire to create a great experience for every guest.\n\nWhether you are looking for a freelance chef for your restaurant, support for an event, private dining services or a unique coffee experience, ElCoffeino delivers quality with personality.",
+      text: ` NICE TO MEET YOU! 
+
+We are two young entrepreneurs brought together by one thing — a passion for coffee and creating memorable experiences.
+
+ElCoffeino was born from the desire to offer more than just a drink — a moment to unwind, positive energy, and a genuine smile with every cup of perfectly crafted espresso.
+
+It’s a project built on dreams, dedication, and a real understanding of the market. We care about every detail — from the quality of the beans to the interaction with our guests — because we know that’s what truly makes the difference.
+
+⸻
+
+WHAT DO WE DO?
+
+We are wherever you need us.
+
+ElCoffeino is a fully mobile coffee catering service operating across the Netherlands — served in a unique way, directly from our coffee bike.
+
+We come straight to you — for events, weddings, business meetings, festivals, or private celebrations. No matter the occasion, we provide your guests with a professional barista experience.
+
+If needed, we can also expand our offer with freshly squeezed juices and a selection of sweet treats to pair with coffee, creating a more diverse and tailored menu.`,
+
+      text2: `WHY OUR COFFEE?
+
+We work with beans that belong to the top 5% of coffee beans in the world.
+
+➡ Specialty coffee is grown under carefully controlled conditions — at the right altitude, in rich soil, and in a suitable climate — to bring out its full flavor.
+
+➡ We choose Moyee Coffee — beans sourced from responsible farms, handpicked, slowly dried, and carefully roasted.
+
+➡ Moyee Coffee operates under the Fair Chain model — supporting local communities and ensuring a more balanced distribution of profits.
+
+⸻
+
+We’re here for you — with great coffee, positive energy, and a reliable, professional approach.
+
+You create the occasion. We take care of the rest.
+
+Sit back, relax, and simply enjoy your coffee.`,
     },
     privateChef: {
       title: "Private Chef / Freelance Chef",
       subtitle: "More than Coffee – Culinary Experience Included",
       intro:
-        "Behind ElCoffeino stands the same passionate owner who is also an experienced freelance chef, available for restaurants, events, private dining and culinary projects.",
+        "Behind ElCoffeino stands a passionate owner and experienced freelance chef, available for restaurants, events, private dining and bespoke culinary projects.",
       description:
-        "With a strong background in modern kitchens and experience working in different restaurants, he brings professionalism, creativity and a hands-on mentality to every service.",
+        "With a strong foundation built in modern, high-pressure kitchens, including experience in restaurants featured in the Michelin Guide, he brings a refined level of professionalism, creativity, and a hands-on approach to every service. Having worked across multiple roles and kitchen environments, he understands both the detail and the bigger picture of running a successful service. His culinary journey goes beyond borders — drawing inspiration from different corners of the world, he combines international influences with a deep appreciation for quality ingredients and authentic techniques. This global perspective allows him to adapt quickly, contribute fresh ideas, and elevate any kitchen he steps into.",
       passion:
-        "Cooking is more than work — it is passion. Especially when it comes to Italian cuisine, fresh ingredients, honest flavours and dishes made with heart.",
+        "Cooking is more than just work — it’s a true passion. Especially when it comes to Italian cuisine: fresh ingredients, honest flavours, and dishes made with heart. Whether supporting a professional kitchen or creating an intimate dining experience, he delivers food that is both memorable and meaningful.",
       whyWorkTitle: "More Than Just a Chef",
       whyWork: [
         "Experienced in modern and fast-paced kitchens",
@@ -128,9 +162,10 @@ export const content: ContentMap = {
       },
       whatsapp: "Message on WhatsApp",
       info: {
-        email: "info@elcoffeino.nl",
+        email: "elcoffeinonl@gmail.com",
         phone: "+31 6 12345678",
-        location: "Netherlands",
+        location: "Valkenierspad 13, 4714BD Sprundel Netherlands",
+        business: "El Coffeino: 93133111",
       },
     },
     footer: {
@@ -209,19 +244,53 @@ export const content: ContentMap = {
     about: {
       title: "Wie Zijn Wij",
       subtitle: "Premium Koffie Ontmoet Culinaire Excellentie",
-      text: "Hij staat bekend om zijn flexibiliteit, betrouwbaarheid en bereidheid om elke uitdaging aan te gaan. Of het nu gaat om het bijspringen in een drukke dienst, het ondersteunen van een team tijdens piekuren, het bedenken van nieuwe menu-ideeën of het verzorgen van privé-gasten, hij past zich snel aan en werkt altijd met focus, energie en oog voor detail. Koken is meer dan werk – het is een ware passie. Vooral als het gaat om de Italiaanse keuken, waar verse ingrediënten, authentieke smaken en respect voor traditie samenkomen op elk bord. Tegelijkertijd voelt hij zich thuis in moderne keukens, eigentijdse concepten en dynamische werkomgevingen. Dezelfde toewijding die de koffieservice van ElCoffeino kenmerkt, zet hij in bij elk keukenproject: kwaliteit, consistentie, gastvrijheid en de wens om elke gast een geweldige ervaring te bieden. Of u nu op zoek bent naar een freelance chef-kok voor uw restaurant, ondersteuning voor een evenement, privé-diners of een unieke koffiebeleving, ElCoffeino levert kwaliteit met persoonlijkheid.",
-      text2:
-        "Achter ElCoffeino staat een gepassioneerde ondernemer die met succes twee werelden combineert: hoogwaardige koffiebelevingen en professionele culinaire expertise. Wat begon als een liefde voor kwaliteit, gastvrijheid en het creëren van onvergetelijke momenten, is uitgegroeid tot een merk gebouwd op passie, hard werken en veelzijdigheid. ElCoffeino is meer dan alleen een mobiele koffiebar; het wordt ook ondersteund door de vaardigheden en ervaring van een toegewijde freelance chef-kok. Als ervaren freelance chef-kok is hij beschikbaar voor restaurants, privédiners, evenementen, cateringprojecten en tijdelijke keukenondersteuning. Met een sterke achtergrond in moderne keukens en ervaring in diverse restaurantomgevingen, brengt hij professionaliteit, creativiteit en een praktische instelling in elke service.",
+      text: `LEUK JE TE ONTMOETEN!
+
+Wij zijn twee jonge ondernemers met één gezamenlijke passie — koffie en het creëren van bijzondere ervaringen.
+
+ElCoffeino is ontstaan uit de wens om meer te bieden dan alleen een drankje — een moment van rust, positieve energie en een oprechte glimlach bij elke perfect gezette espresso.
+
+Het is een project gebouwd op dromen, toewijding en een goed begrip van de markt. We letten op elk detail — van de kwaliteit van de bonen tot het contact met onze gasten — want juist dat maakt het verschil.
+
+⸻
+
+WAT DOEN WIJ?
+
+Wij zijn waar jij ons nodig hebt.
+
+ElCoffeino is een volledig mobiele koffiecatering die actief is in heel Nederland — geserveerd op een unieke manier, direct vanaf onze koffiefiets.
+
+Wij komen naar jou toe — voor evenementen, bruiloften, zakelijke meetings, festivals of privégelegenheden. Wat de gelegenheid ook is, wij zorgen voor een professionele barista-ervaring voor jouw gasten.
+
+Indien gewenst kunnen wij ons aanbod uitbreiden met versgeperste sappen en een selectie zoetigheden die perfect bij koffie passen, zodat we een nog gevarieerder en op maat gemaakt menu kunnen aanbieden.`,
+
+      text2: `WAAROM ONZE KOFFIE?
+
+Wij werken met bonen die behoren tot de beste 5% van de koffiebonen wereldwijd.
+
+➡ Specialty coffee wordt verbouwd onder zorgvuldig gecontroleerde omstandigheden — op de juiste hoogte, in vruchtbare grond en met een geschikt klimaat — om de volle smaak naar voren te brengen.
+
+➡ Wij kiezen voor Moyee Coffee — bonen afkomstig van verantwoorde teelt, met de hand geplukt, langzaam gedroogd en zorgvuldig gebrand.
+
+➡ Moyee Coffee werkt volgens het Fair Chain-principe — ter ondersteuning van lokale gemeenschappen en een eerlijkere verdeling van opbrengsten.
+
+⸻
+
+Wij staan voor je klaar — met goede koffie, positieve energie en een aanpak waarop je kunt vertrouwen.
+
+Jij creëert het moment. Wij zorgen voor de rest.
+
+Leun achterover, ontspan en geniet van je koffie.`,
     },
     privateChef: {
       title: "Privé Chef / Freelance Chef",
       subtitle: "Meer dan Koffie – Culinaire Ervaring Inbegrepen",
       intro:
-        "Achter ElCoffeino staat dezelfde gepassioneerde eigenaar die ook een ervaren freelance chef is, beschikbaar voor restaurants, evenementen, privédiners en culinaire projecten.",
+        "Achter ElCoffeino staat een gepassioneerde eigenaar en ervaren freelance chef, beschikbaar voor restaurants, evenementen, private dining en op maat gemaakte culinaire projecten.",
       description:
-        "Met een sterke achtergrond in moderne keukens en ervaring in verschillende restaurants, brengt hij professionaliteit, creativiteit en een hands-on mentaliteit naar elke dienst.",
+        "Met een sterke basis opgebouwd in moderne, veeleisende keukens, waaronder ervaring in restaurants die zijn opgenomen in de Michelin Gids, brengt hij een hoog niveau van professionaliteit, creativiteit en een hands-on mentaliteit naar elke service. Door te werken in verschillende functies en keukenomgevingen begrijpt hij zowel de details als het grotere geheel van een succesvolle service. Zijn culinaire reis gaat verder dan grenzen — geïnspireerd door verschillende uithoeken van de wereld combineert hij internationale invloeden met een diepe waardering voor kwaliteitsingrediënten en authentieke technieken. Dit wereldwijde perspectief stelt hem in staat zich snel aan te passen, frisse ideeën in te brengen en elke keuken waarin hij werkt naar een hoger niveau te tillen.",
       passion:
-        "Koken is meer dan werk — het is passie. Vooral als het gaat om de Italiaanse keuken, verse ingrediënten, eerlijke smaken en gerechten gemaakt met hart.",
+        "Koken is meer dan alleen werk — het is een echte passie. Vooral als het gaat om de Italiaanse keuken: verse ingrediënten, eerlijke smaken en gerechten die met hart worden bereid. Of hij nu een professionele keuken ondersteunt of een intieme dinerervaring creëert, hij levert gerechten die zowel memorabel als betekenisvol zijn.",
       whyWorkTitle: "Meer Dan Alleen Een Chef",
       whyWork: [
         "Ervaring in moderne en snelle keukens",
@@ -321,9 +390,10 @@ export const content: ContentMap = {
       },
       whatsapp: "Bericht op WhatsApp",
       info: {
-        email: "info@elcoffeino.nl",
+        email: "elcoffeinonl@gmail.com",
         phone: "+31 6 12345678",
-        location: "Nederland",
+        location: "Valkenierspad 13, 4714BD Sprundel Nederland",
+        business: "El Coffeino: 93133111",
       },
     },
     footer: {
@@ -385,4 +455,3 @@ export const content: ContentMap = {
     },
   },
 };
-

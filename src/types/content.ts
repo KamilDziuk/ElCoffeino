@@ -74,6 +74,7 @@ export interface ContactInfo {
   email: string;
   phone: string;
   location: string;
+  business: string;
 }
 
 export interface ContactContent {

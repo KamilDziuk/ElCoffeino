@@ -25,11 +25,18 @@ export default function HeroSection({ content }: Props) {
 
       <div className="relative z-10 text-center px-4 max-w-5xl mx-auto  animate-fade-in-up">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-4 text-[#d4a574] font-serif tracking-wider">
-          {content.hero.title}
+          {/* {content.hero.title} */}
+
+          <img
+            src="../../heroImage.webp"
+            alt="ElCoffeino"
+            className=" w-130 h-auto cursor-pointer mt-9   to-transparent mx-auto "
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          />
         </h1>
-        <p className="text-2xl md:text-3xl text-gray-300 font-light mb-6 italic">
+        {/* <p className="text-2xl md:text-3xl text-gray-300 font-light mb-6 italic">
           {content.hero.subtitle}
-        </p>
+        </p> */}
         <div className="w-32 h-1 bg-linear-to-r from-transparent via-[#d4a574] to-transparent mx-auto mb-8" />
         <p className="text-xl md:text-2xl text-gray-200 mb-12 font-light max-w-3xl mx-auto leading-relaxed">
           {content.hero.tagline}

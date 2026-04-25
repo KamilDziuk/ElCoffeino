@@ -13,7 +13,7 @@ export default function MenuSection({ content }: Props) {
     <section
       id="menu"
       data-testid="menu-section"
-      className="py-24 bg-gradient-to-b from-[#0f0f10] to-[#1a1a1a] relative overflow-hidden"
+      className="py-24 bg-linear-to-b from-[#0f0f10] to-[#1a1a1a] relative overflow-hidden"
     >
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[#d4a574]/5 rounded-full blur-3xl" />
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-[#d4a574]/5 rounded-full blur-3xl" />
