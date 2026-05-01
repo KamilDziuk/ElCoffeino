@@ -47,9 +47,9 @@ export default function ContactSection({ content }: Props) {
 
     if (res.status === 200) {
       setSubmitStatus("success");
+      setFormData({ name: "", email: "", phone: "", message: "" });
       setIsSubmitting(false);
     } else if (res.status === 500 || res.status === 405) {
-      setFormData({ name: "", email: "", phone: "", message: "" });
       setSubmitStatus("error");
       setIsSubmitting(false);
     }
