@@ -173,6 +173,10 @@ Sit back, relax, and simply enjoy your coffee.`,
       rights: "All rights reserved.",
       social: "Follow Us",
     },
+    // sent: {
+    //   subject: "Thank you for your inquiry – El Coffeino",
+    //   text: "Hi, thank you for your inquiry about our services ☕ We’ve received your message and will get back to you as soon as possible (usually within 24 hours). If your request is urgent, feel free to contact us directly: 📞 +31 6 17995104 Best regards,  Łukasz Seweryn - El Coffeino. Instagram: https://instagram.com/elcoffeino Website: https://elcoffeino.com We provide services for eve.",
+    // },
     menu: {
       title: "Our Offer",
       subtitle: "Choose the perfect package for your event",
@@ -401,6 +405,10 @@ Leun achterover, ontspan en geniet van je koffie.`,
       rights: "Alle rechten voorbehouden.",
       social: "Volg Ons",
     },
+    // sent: {
+    //   subject: "Bedankt voor uw vraag – El Coffeino",
+    //   text: "Hallo, bedankt voor uw vraag over onze diensten ☕ We hebben uw bericht ontvangen en nemen zo snel mogelijk contact met u op (meestal binnen 24 uur). Als uw verzoek urgent is, kunt u ons direct bereiken: 📞 +31 6 17995104 Met vriendelijke groeten, Łukasz Seweryn - El Coffeino. Instagram: https://instagram.com/elcoffeino Website: https://elcoffeino.com Wij bieden diensten aan voor eve.",
+    // },
     menu: {
       title: "Ons Aanbod",
       subtitle: "Kies het perfecte pakket voor uw evenement",

@@ -1,4 +1,4 @@
-import nodemailer from "nodemailer";
+import { form } from "./mailer";
 
 type Event = {
   httpMethod: string;
@@ -16,38 +16,33 @@ export const handler = async (event: Event) => {
     const data = JSON.parse(event.body || "{}");
     const { name, email, phone, message } = data;
 
-    const transporter = nodemailer.createTransport({
-      service: "gmail",
-      auth: {
-        user: process.env.USER,
-        pass: process.env.GOOGLE_APP_PASSWORD,
-      },
-    });
-
-    await transporter.sendMail({
-      from: process.env.USER,
-      to: `${email}, elcoffeinonl@gmail.com`,
+    await form({
+      to: `${email}`,
       subject: "Thank you for your inquiry – El Coffeino",
       text: `Hi,
-thank you for your inquiry about our services ☕
-We’ve received your message and will get back to you as soon as possible (usually within 24 hours).
-
+    
+      thank you for your inquiry about our services☕
+      
+      We’ve received your message and will get back to you as soon as possible (usually within 24 hours).
+      
 If your request is urgent, feel free to contact us directly:
 📞 +31 6 17995104
-
-Your message:
-Name: ${name}
-Email: ${email}
-Phone: ${phone}
-Message: ${message}
-
 
 Best regards,  Łukasz Seweryn - El Coffeino.
 
 Instagram: https://instagram.com/elcoffeino
 Website: https://elcoffeino.com
+We provide services for eve.`,
+    });
 
-We provide services for eve.
+    await form({
+      to: "elcoffeinonl@gmail.com",
+      subject: `Message from the customer ${name}`,
+      text: `Message from client:
+Name: ${name}
+Email: ${email}
+Phone: ${phone}
+Message: ${message}
 `,
     });
 

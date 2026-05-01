@@ -91,6 +91,11 @@ export interface FooterContent {
   social: string;
 }
 
+// export interface EamilContent {
+//   subject?: string;
+//   text?: string;
+// }
+
 export interface CoffeePackage {
   name: string;
   badge?: string;
@@ -122,6 +127,7 @@ export interface LanguageContent {
   testimonials: TestimonialsContent;
   contact: ContactContent;
   footer: FooterContent;
+  // sent: EamilContent;
   menu: MenuContent;
 }
 
