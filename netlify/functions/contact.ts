@@ -1,4 +1,4 @@
-import { form } from "./mailer";
+import { sendMail } from "./mailer";
 
 type Event = {
   httpMethod: string;
@@ -16,7 +16,7 @@ export const handler = async (event: Event) => {
     const data = JSON.parse(event.body || "{}");
     const { name, email, phone, message } = data;
 
-    await form({
+    await sendMail({
       to: `${email}`,
       subject: "Thank you for your inquiry – El Coffeino",
       text: `Hi,
@@ -35,7 +35,7 @@ Website: https://elcoffeino.com
 We provide services for eve.`,
     });
 
-    await form({
+    await sendMail({
       to: "elcoffeinonl@gmail.com",
       subject: `Message from the customer ${name}`,
       text: `Message from client:
