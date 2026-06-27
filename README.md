@@ -32,3 +32,7 @@ Built using modern frontend technologies:
 -  Modern UI/UX design
 -  Optimized for performance
 -  SEO-friendly structure
+
+## Additional Notes
+
+The project structure was generated with the support of AI assistance and then manually refined. I defined the overall architecture and project direction, optimized the codebase, and ensured a clean, logical, and maintainable structure that can be easily extended and modified in the future.
