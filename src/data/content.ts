@@ -21,11 +21,11 @@ export const content: ContentMap = {
       subtitle: "Premium Coffee Meets Culinary Excellence",
       text: ` NICE TO MEET YOU! 
 
-We are two young entrepreneurs brought together by one thing — a passion for coffee and creating memorable experiences.
+We are two young entrepreneurs brought together by one thing  -  a passion for coffee and creating memorable experiences.
 
-ElCoffeino was born from the desire to offer more than just a drink — a moment to unwind, positive energy, and a genuine smile with every cup of perfectly crafted espresso.
+ElCoffeino was born from the desire to offer more than just a drink  -  a moment to unwind, positive energy, and a genuine smile with every cup of perfectly crafted espresso.
 
-It’s a project built on dreams, dedication, and a real understanding of the market. We care about every detail — from the quality of the beans to the interaction with our guests — because we know that’s what truly makes the difference.
+It’s a project built on dreams, dedication, and a real understanding of the market. We care about every detail  -  from the quality of the beans to the interaction with our guests  -  because we know that’s what truly makes the difference.
 
 ⸻
 
@@ -33,9 +33,9 @@ WHAT DO WE DO?
 
 We are wherever you need us.
 
-ElCoffeino is a fully mobile coffee catering service operating across the Netherlands — served in a unique way, directly from our coffee bike.
+ElCoffeino is a fully mobile coffee catering service operating across the Netherlands  -  served in a unique way, directly from our coffee bike.
 
-We come straight to you — for events, weddings, business meetings, festivals, or private celebrations. No matter the occasion, we provide your guests with a professional barista experience.
+We come straight to you  -  for events, weddings, business meetings, festivals, or private celebrations. No matter the occasion, we provide your guests with a professional barista experience.
 
 If needed, we can also expand our offer with freshly squeezed juices and a selection of sweet treats to pair with coffee, creating a more diverse and tailored menu.`,
 
@@ -43,15 +43,15 @@ If needed, we can also expand our offer with freshly squeezed juices and a selec
 
 We work with beans that belong to the top 5% of coffee beans in the world.
 
-➡ Specialty coffee is grown under carefully controlled conditions — at the right altitude, in rich soil, and in a suitable climate — to bring out its full flavor.
+➡ Specialty coffee is grown under carefully controlled conditions  -  at the right altitude, in rich soil, and in a suitable climate  -  to bring out its full flavor.
 
-➡ We choose Moyee Coffee — beans sourced from responsible farms, handpicked, slowly dried, and carefully roasted.
+➡ We choose Moyee Coffee  -  beans sourced from responsible farms, handpicked, slowly dried, and carefully roasted.
 
-➡ Moyee Coffee operates under the Fair Chain model — supporting local communities and ensuring a more balanced distribution of profits.
+➡ Moyee Coffee operates under the Fair Chain model  -  supporting local communities and ensuring a more balanced distribution of profits.
 
 ⸻
 
-We’re here for you — with great coffee, positive energy, and a reliable, professional approach.
+We’re here for you  -  with great coffee, positive energy, and a reliable, professional approach.
 
 You create the occasion. We take care of the rest.
 
@@ -59,19 +59,19 @@ Sit back, relax, and simply enjoy your coffee.`,
     },
     privateChef: {
       title: "Private Chef / Freelance Chef",
-      subtitle: "More than Coffee – Culinary Experience Included",
+      subtitle: "More than Coffee  -  Culinary Experience Included",
       intro:
         "Behind ElCoffeino stands a passionate owner and experienced freelance chef, available for restaurants, events, private dining and bespoke culinary projects.",
       description:
-        "With a strong foundation built in modern, high-pressure kitchens, including experience in restaurants featured in the Michelin Guide, he brings a refined level of professionalism, creativity, and a hands-on approach to every service. Having worked across multiple roles and kitchen environments, he understands both the detail and the bigger picture of running a successful service. His culinary journey goes beyond borders — drawing inspiration from different corners of the world, he combines international influences with a deep appreciation for quality ingredients and authentic techniques. This global perspective allows him to adapt quickly, contribute fresh ideas, and elevate any kitchen he steps into.",
+        "With a strong foundation built in modern, high-pressure kitchens, including experience in restaurants featured in the Michelin Guide, he brings a refined level of professionalism, creativity, and a hands-on approach to every service. Having worked across multiple roles and kitchen environments, he understands both the detail and the bigger picture of running a successful service. His culinary journey goes beyond borders  -  drawing inspiration from different corners of the world, he combines international influences with a deep appreciation for quality ingredients and authentic techniques. This global perspective allows him to adapt quickly, contribute fresh ideas, and elevate any kitchen he steps into.",
       passion:
-        "Cooking is more than just work — it’s a true passion. Especially when it comes to Italian cuisine: fresh ingredients, honest flavours, and dishes made with heart. Whether supporting a professional kitchen or creating an intimate dining experience, he delivers food that is both memorable and meaningful.",
+        "Cooking is more than just work  -  it’s a true passion. Especially when it comes to Italian cuisine: fresh ingredients, honest flavours, and dishes made with heart. Whether supporting a professional kitchen or creating an intimate dining experience, he delivers food that is both memorable and meaningful.",
       whyWorkTitle: "More Than Just a Chef",
       whyWork: [
         "Experienced in modern and fast-paced kitchens",
         "Passion for Italian cuisine",
         "Flexible and available for different concepts",
-        "Strong work ethic – no task is too big or too small",
+        "Strong work ethic  -  no task is too big or too small",
         "Reliable, professional and easy to work with",
         "Able to adapt quickly to new teams and environments",
         "Calm under pressure and focused on quality",
@@ -174,7 +174,7 @@ Sit back, relax, and simply enjoy your coffee.`,
       social: "Follow Us",
     },
     // sent: {
-    //   subject: "Thank you for your inquiry – El Coffeino",
+    //   subject: "Thank you for your inquiry  -  El Coffeino",
     //   text: "Hi, thank you for your inquiry about our services ☕ We’ve received your message and will get back to you as soon as possible (usually within 24 hours). If your request is urgent, feel free to contact us directly: 📞 +31 6 17995104 Best regards,  Łukasz Seweryn - El Coffeino. Instagram: https://instagram.com/elcoffeino Website: https://elcoffeino.com We provide services for eve.",
     // },
     menu: {
@@ -250,11 +250,11 @@ Sit back, relax, and simply enjoy your coffee.`,
       subtitle: "Premium Koffie Ontmoet Culinaire Excellentie",
       text: `LEUK JE TE ONTMOETEN!
 
-Wij zijn twee jonge ondernemers met één gezamenlijke passie — koffie en het creëren van bijzondere ervaringen.
+Wij zijn twee jonge ondernemers met één gezamenlijke passie  -  koffie en het creëren van bijzondere ervaringen.
 
-ElCoffeino is ontstaan uit de wens om meer te bieden dan alleen een drankje — een moment van rust, positieve energie en een oprechte glimlach bij elke perfect gezette espresso.
+ElCoffeino is ontstaan uit de wens om meer te bieden dan alleen een drankje  -  een moment van rust, positieve energie en een oprechte glimlach bij elke perfect gezette espresso.
 
-Het is een project gebouwd op dromen, toewijding en een goed begrip van de markt. We letten op elk detail — van de kwaliteit van de bonen tot het contact met onze gasten — want juist dat maakt het verschil.
+Het is een project gebouwd op dromen, toewijding en een goed begrip van de markt. We letten op elk detail  -  van de kwaliteit van de bonen tot het contact met onze gasten  -  want juist dat maakt het verschil.
 
 ⸻
 
@@ -262,9 +262,9 @@ WAT DOEN WIJ?
 
 Wij zijn waar jij ons nodig hebt.
 
-ElCoffeino is een volledig mobiele koffiecatering die actief is in heel Nederland — geserveerd op een unieke manier, direct vanaf onze koffiefiets.
+ElCoffeino is een volledig mobiele koffiecatering die actief is in heel Nederland  -  geserveerd op een unieke manier, direct vanaf onze koffiefiets.
 
-Wij komen naar jou toe — voor evenementen, bruiloften, zakelijke meetings, festivals of privégelegenheden. Wat de gelegenheid ook is, wij zorgen voor een professionele barista-ervaring voor jouw gasten.
+Wij komen naar jou toe  -  voor evenementen, bruiloften, zakelijke meetings, festivals of privégelegenheden. Wat de gelegenheid ook is, wij zorgen voor een professionele barista-ervaring voor jouw gasten.
 
 Indien gewenst kunnen wij ons aanbod uitbreiden met versgeperste sappen en een selectie zoetigheden die perfect bij koffie passen, zodat we een nog gevarieerder en op maat gemaakt menu kunnen aanbieden.`,
 
@@ -272,15 +272,15 @@ Indien gewenst kunnen wij ons aanbod uitbreiden met versgeperste sappen en een s
 
 Wij werken met bonen die behoren tot de beste 5% van de koffiebonen wereldwijd.
 
-➡ Specialty coffee wordt verbouwd onder zorgvuldig gecontroleerde omstandigheden — op de juiste hoogte, in vruchtbare grond en met een geschikt klimaat — om de volle smaak naar voren te brengen.
+➡ Specialty coffee wordt verbouwd onder zorgvuldig gecontroleerde omstandigheden  -  op de juiste hoogte, in vruchtbare grond en met een geschikt klimaat  -  om de volle smaak naar voren te brengen.
 
-➡ Wij kiezen voor Moyee Coffee — bonen afkomstig van verantwoorde teelt, met de hand geplukt, langzaam gedroogd en zorgvuldig gebrand.
+➡ Wij kiezen voor Moyee Coffee  -  bonen afkomstig van verantwoorde teelt, met de hand geplukt, langzaam gedroogd en zorgvuldig gebrand.
 
-➡ Moyee Coffee werkt volgens het Fair Chain-principe — ter ondersteuning van lokale gemeenschappen en een eerlijkere verdeling van opbrengsten.
+➡ Moyee Coffee werkt volgens het Fair Chain-principe  -  ter ondersteuning van lokale gemeenschappen en een eerlijkere verdeling van opbrengsten.
 
 ⸻
 
-Wij staan voor je klaar — met goede koffie, positieve energie en een aanpak waarop je kunt vertrouwen.
+Wij staan voor je klaar  -  met goede koffie, positieve energie en een aanpak waarop je kunt vertrouwen.
 
 Jij creëert het moment. Wij zorgen voor de rest.
 
@@ -288,19 +288,19 @@ Leun achterover, ontspan en geniet van je koffie.`,
     },
     privateChef: {
       title: "Privé Chef / Freelance Chef",
-      subtitle: "Meer dan Koffie – Culinaire Ervaring Inbegrepen",
+      subtitle: "Meer dan Koffie  -  Culinaire Ervaring Inbegrepen",
       intro:
         "Achter ElCoffeino staat een gepassioneerde eigenaar en ervaren freelance chef, beschikbaar voor restaurants, evenementen, private dining en op maat gemaakte culinaire projecten.",
       description:
-        "Met een sterke basis opgebouwd in moderne, veeleisende keukens, waaronder ervaring in restaurants die zijn opgenomen in de Michelin Gids, brengt hij een hoog niveau van professionaliteit, creativiteit en een hands-on mentaliteit naar elke service. Door te werken in verschillende functies en keukenomgevingen begrijpt hij zowel de details als het grotere geheel van een succesvolle service. Zijn culinaire reis gaat verder dan grenzen — geïnspireerd door verschillende uithoeken van de wereld combineert hij internationale invloeden met een diepe waardering voor kwaliteitsingrediënten en authentieke technieken. Dit wereldwijde perspectief stelt hem in staat zich snel aan te passen, frisse ideeën in te brengen en elke keuken waarin hij werkt naar een hoger niveau te tillen.",
+        "Met een sterke basis opgebouwd in moderne, veeleisende keukens, waaronder ervaring in restaurants die zijn opgenomen in de Michelin Gids, brengt hij een hoog niveau van professionaliteit, creativiteit en een hands-on mentaliteit naar elke service. Door te werken in verschillende functies en keukenomgevingen begrijpt hij zowel de details als het grotere geheel van een succesvolle service. Zijn culinaire reis gaat verder dan grenzen  -  geïnspireerd door verschillende uithoeken van de wereld combineert hij internationale invloeden met een diepe waardering voor kwaliteitsingrediënten en authentieke technieken. Dit wereldwijde perspectief stelt hem in staat zich snel aan te passen, frisse ideeën in te brengen en elke keuken waarin hij werkt naar een hoger niveau te tillen.",
       passion:
-        "Koken is meer dan alleen werk — het is een echte passie. Vooral als het gaat om de Italiaanse keuken: verse ingrediënten, eerlijke smaken en gerechten die met hart worden bereid. Of hij nu een professionele keuken ondersteunt of een intieme dinerervaring creëert, hij levert gerechten die zowel memorabel als betekenisvol zijn.",
+        "Koken is meer dan alleen werk  -  het is een echte passie. Vooral als het gaat om de Italiaanse keuken: verse ingrediënten, eerlijke smaken en gerechten die met hart worden bereid. Of hij nu een professionele keuken ondersteunt of een intieme dinerervaring creëert, hij levert gerechten die zowel memorabel als betekenisvol zijn.",
       whyWorkTitle: "Meer Dan Alleen Een Chef",
       whyWork: [
         "Ervaring in moderne en snelle keukens",
         "Passie voor de Italiaanse keuken",
         "Flexibel en beschikbaar voor verschillende concepten",
-        "Sterke werkethiek – geen taak is te groot of te klein",
+        "Sterke werkethiek  -  geen taak is te groot of te klein",
         "Betrouwbaar, professioneel en gemakkelijk om mee te werken",
         "Kan zich snel aanpassen aan nieuwe teams en omgevingen",
         "Kalm onder druk en gericht op kwaliteit",
@@ -406,7 +406,7 @@ Leun achterover, ontspan en geniet van je koffie.`,
       social: "Volg Ons",
     },
     // sent: {
-    //   subject: "Bedankt voor uw vraag – El Coffeino",
+    //   subject: "Bedankt voor uw vraag  -  El Coffeino",
     //   text: "Hallo, bedankt voor uw vraag over onze diensten ☕ We hebben uw bericht ontvangen en nemen zo snel mogelijk contact met u op (meestal binnen 24 uur). Als uw verzoek urgent is, kunt u ons direct bereiken: 📞 +31 6 17995104 Met vriendelijke groeten, Łukasz Seweryn - El Coffeino. Instagram: https://instagram.com/elcoffeino Website: https://elcoffeino.com Wij bieden diensten aan voor eve.",
     // },
     menu: {

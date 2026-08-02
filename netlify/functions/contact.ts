@@ -18,7 +18,7 @@ export const handler = async (event: Event) => {
 
     await sendMail({
       to: email,
-      subject: "Thank you for your inquiry – El Coffeino",
+      subject: "Thank you for your inquiry  -  El Coffeino",
       text: `Hi,
 
 thank you for your inquiry about our services☕
@@ -56,7 +56,7 @@ We provide services for eve.`,
 
     <p>
       Best regards,<br/>
-      <strong>Łukasz Seweryn – El Coffeino</strong>
+      <strong>Łukasz Seweryn  -  El Coffeino</strong>
     </p>
 
     <p style="margin-top:15px;">
