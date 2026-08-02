@@ -13,7 +13,6 @@ const SOCIAL_LINKS = [
   },
 ];
 
-
 export default function Footer({ content }: Props) {
   const year = new Date().getFullYear();
 
@@ -90,14 +89,30 @@ export default function Footer({ content }: Props) {
           <p className="text-center text-gray-400 text-sm ">
             &copy; {year} ElCoffeino. {content.footer.rights}
           </p>
+          <p className="text-center text-gray-400 text-sm ">
+            Legal Information:{" "}
+            <a
+              className=" text-gray-200 text-sm"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="../../document/privacy-policy-elcoffeino.pdf"
+            >
+              Privacy Policy
+            </a>
+          </p>
           <br />
-          <a
-            href="https://kamildziuk.github.io/"
-            target="_balank"
-            className="text-center text-gray-700 text-sm"
-          >
-            Realization: Kamil Dziuk
-          </a>
+          <p className="text-gray-700">
+            Realization:{" "}
+            <a
+              href="https://kamildziuk.github.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className=" text-gray-600"
+            >
+              {" "}
+              Kamil Dziuk
+            </a>
+          </p>
         </div>
       </div>
     </footer>
