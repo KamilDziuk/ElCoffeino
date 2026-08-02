@@ -60,8 +60,8 @@ We provide services for eve.`,
     </p>
 
     <p style="margin-top:15px;">
-      📸 <a href="https://instagram.com/elcoffeino" style="color:#d4a574;">Instagram</a><br/>
-      🌐 <a href="https://elcoffeino.com" style="color:#d4a574;">Website</a>
+      📸 <a href="https://instagram.com/elcoffeino" rel="noopener noreferrer" style="color:#d4a574;">Instagram</a><br/>
+      🌐 <a href="https://elcoffeino.com" rel="noopener noreferrer"  style="color:#d4a574;">Website</a>
     </p>
 
     <p>

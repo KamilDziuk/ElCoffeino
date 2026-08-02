@@ -232,6 +232,7 @@ export default function ContactSection({ content }: Props) {
                     </h3>
                     {href ? (
                       <a
+                        rel="noopener noreferrer"
                         href={href}
                         className="text-gray-300 hover:text-[#d4a574] transition-colors"
                       >

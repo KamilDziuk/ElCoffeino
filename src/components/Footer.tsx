@@ -68,6 +68,8 @@ export default function Footer({ content }: Props) {
             <div className="flex space-x-4 ">
               {SOCIAL_LINKS.map(({ id, icon: Icon, href }) => (
                 <a
+                target="_blank"
+                  rel="noopener noreferrer"
                   key={id}
                   href={href}
                   className="w-10 h-10 rounded-full bg-[#1a1a1a] border border-[#d4a574]/30 flex items-center justify-center hover:bg-[#d4a574] hover:border-[#d4a574] transition-all duration-300 group"
