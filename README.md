@@ -19,10 +19,10 @@ The website focuses on:
 
 Built using modern frontend technologies:
 
-- **React** – UI library
-- **TypeScript** – static typing
-- **Vite** – fast development/build tool
-- **Tailwind CSS** – utility-first styling
+- **React**  -  UI library
+- **TypeScript**  -  static typing
+- **Vite**  -  fast development/build tool
+- **Tailwind CSS**  -  utility-first styling
 
 ## Features
 
