@@ -103,7 +103,7 @@ export default function ContactSection({ content }: Props) {
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-transparent via-[#d4a574] to-transparent mx-auto mt-6" />
         </div>
-
+–
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Form */}
           <Card className="bg-[#1a1a1a]/80 backdrop-blur-md border border-[#d4a574]/30 p-8">
